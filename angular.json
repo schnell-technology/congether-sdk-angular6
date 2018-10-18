@@ -3,25 +3,25 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "common": {
-      "root": "projects/congether-sdk-lib",
-      "sourceRoot": "projects/congether-sdk-lib/src",
+    "congether-sdk-angular6": {
+      "root": "projects/congether-sdk-angular6",
+      "sourceRoot": "projects/congether-sdk-angular6/src",
       "projectType": "library",
       "prefix": "enl",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/congether-sdk-lib/tsconfig.lib.json",
-            "project": "projects/congether-sdk-lib/ng-package.json"
+            "tsConfig": "projects/congether-sdk-angular6/tsconfig.lib.json",
+            "project": "projects/congether-sdk-angular6/ng-package.json"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/congether-sdk-lib/tsconfig.lib.json",
-              "projects/congether-sdk-lib/tsconfig.spec.json"
+              "projects/congether-sdk-angular6/tsconfig.lib.json",
+              "projects/congether-sdk-angular6/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"

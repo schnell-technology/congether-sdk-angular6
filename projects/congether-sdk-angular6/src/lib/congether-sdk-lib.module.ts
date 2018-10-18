@@ -3,6 +3,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { AngularClientService } from './AngularClientService';
 import { CongetherAngularClient } from './CongetherAngularClient';
 
+export {CongetherAngularClient} from './CongetherAngularClient';
+
 @NgModule({
   imports: [
     HttpClientModule

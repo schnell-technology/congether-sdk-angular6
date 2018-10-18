@@ -1,6 +1,6 @@
 {
-  "name": "@schnell.technology/congether-sdk-angular6",
-  "description": "Congether SDK for Angular 6+",
+  "name": "sdk-projects",
+  "description": "Project Container for Congether SDK",
   "author": {
     "name": "schnell.technology",
     "url": "https://schnell.technology"

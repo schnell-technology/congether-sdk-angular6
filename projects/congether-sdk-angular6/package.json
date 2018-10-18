@@ -1,0 +1,23 @@
+{
+  "name": "@schnell.technology/congether-sdk-angular6",
+  "description": "Congether SDK for Angular 6+",
+  "author": {
+    "name": "schnell.technology",
+    "url": "https://schnell.technology"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/schnell-technology/congether-sdk-angular6.git"
+  },
+  "version": "1.0.0-beta2.7",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/http": "^6.0.0"    
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "moment": "^2.22.2",
+    "rxjs": "~6.2.0"   
+  }
+}

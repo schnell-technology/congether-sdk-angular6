@@ -5,5 +5,5 @@
 	path = projects/congether-sdk/congether-sdk-angular6/projects/congether-sdk-lib/src/core
 	url = https://github.com/schnell-technology/congether-sdk-js-core
 [submodule "projects/congether-sdk-lib/src/core"]
-	path = projects/congether-sdk-lib/src/core
+	path = projects/congether-sdk-angular6/src/core
 	url = https://github.com/schnell-technology/congether-sdk-js-core

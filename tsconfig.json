@@ -19,11 +19,11 @@
       "dom"
     ],
     "paths": {
-      "congether-sdk-lib": [
-        "dist/congether-sdk-lib"
+      "congether-sdk-angular6": [
+        "dist/congether-sdk-angular6"
       ],
-      "congether-sdk-lib/*": [
-        "dist/congether-sdk-lib/*"
+      "congether-sdk-angular6/*": [
+        "dist/congether-sdk-angular6/*"
       ]
     }
   }

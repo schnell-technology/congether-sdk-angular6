@@ -6,14 +6,6 @@
 //----------------------
 // ReSharper disable InconsistentNaming
 
-import 'rxjs/add/observable/fromPromise';
-import 'rxjs/add/observable/of';
-import 'rxjs/add/observable/throw';
-import 'rxjs/add/operator/map';
-import 'rxjs/add/operator/toPromise';
-import 'rxjs/add/operator/mergeMap';
-import 'rxjs/add/operator/catch';
-
 import { mergeMap as _observableMergeMap, catchError as _observableCatch } from 'rxjs/operators';
 import { Observable, throwError as _observableThrow, of as _observableOf } from 'rxjs';
 import { Injectable, Inject, Optional, InjectionToken } from '@angular/core';
