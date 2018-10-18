@@ -12,7 +12,12 @@ export class AngularFileHandler implements core.ICongetherFileHandler
 
 
     async getCommonCongetherFile(): Promise<core.CongetherFile> {
-        var storedItem = JSON.parse(localStorage.getItem(AngularFileHandler.CONGETHERFILE_COMMON)) as core.CongetherFile;
+        var content = localStorage.getItem(AngularFileHandler.CONGETHERFILE_COMMON);
+        var storedItem : core.CongetherFile = null;
+        if(content != null)
+        {
+           storedItem = JSON.parse(content) as core.CongetherFile;
+        }
         if(storedItem != null)
         {
             return storedItem;
@@ -26,7 +31,11 @@ export class AngularFileHandler implements core.ICongetherFileHandler
     }    
     
     async getAppCongetherFile(): Promise<core.CongetherFile> {
-        var storedItem = JSON.parse(localStorage.getItem(AngularFileHandler.CONGETHERFILE_APP + this.appIdentifier)) as core.CongetherFile;
+        var content = localStorage.getItem(AngularFileHandler.CONGETHERFILE_APP + this.appIdentifier);
+        var storedItem : core.CongetherFile = null;
+        if(content != null){
+            storedItem = JSON.parse(content) as core.CongetherFile;
+        }
         if(storedItem != null)
         {
             return storedItem;
