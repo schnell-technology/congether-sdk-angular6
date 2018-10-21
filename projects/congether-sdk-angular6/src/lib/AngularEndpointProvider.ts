@@ -18,7 +18,7 @@ export class AngularEndpointProvider implements core.IEndpointInfoProvider
         else
             endpointInfo.appVersion = require('../package.json').version;
             
-        endpointInfo.deviceIdentifier = client.deviceIdentifier;
+        endpointInfo.deviceKey = client.deviceKey;
         endpointInfo.privacyPolicy = commonFile.privacy_mode;
         endpointInfo.deviceId = commonFile.instanceId;
         endpointInfo.installationId = appFile.instanceId;
