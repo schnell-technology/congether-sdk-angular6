@@ -5,11 +5,12 @@
     "name": "schnell.technology",
     "url": "https://schnell.technology"
   },
+  "license": "MIT",
   "repository": {
     "type" : "git",
     "url" : "https://github.com/schnell-technology/congether-sdk-angular6.git"
   },
-  "version": "1.0.0-beta3",
+  "version": "1.0.1",
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
     "@angular/core": "^6.0.0-rc.0 || ^6.0.0",
